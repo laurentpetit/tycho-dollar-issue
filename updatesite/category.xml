@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description>
+      Update Site.
+   </description>
+   <feature url="" id="feature" version="0.0.0">
+      <category name="Core Category"/>
+   </feature>
+   <category-def name="Core Category" label="Core Category">
+      <description>
+        Core Category
+      </description>
+   </category-def>
+</site>
