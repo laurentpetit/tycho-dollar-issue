@@ -2,9 +2,8 @@
 
 This repository shows a minimalist of a Maven Tycho issue:
 
-    As soon as one of the directories packaged in a bundle contains the dollar sign $ in its name, the preparation phase of tycho-surefire-plugin will fail.
-
-    This occurs on my OSX X box, and has been reported to also occur on Linux box. Seems like Windows machines are not affected by the bug, which involves "chmod".
+- As soon as one of the directories packaged in a bundle contains the dollar sign $ in its name, the preparation phase of tycho-surefire-plugin will fail.
+- This occurs on my OSX X box, and has been reported to also occur on Linux box. Seems like Windows machines are not affected by the bug, which involves "chmod".
 
 In this repo, there's a plugin named "core" which contains a lib/ directory with a directory containing an $.
 
