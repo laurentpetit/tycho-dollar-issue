@@ -1,6 +1,5 @@
 bin/*
 classes/*
-lib/*
 target/*
 target/
 /*.jar
